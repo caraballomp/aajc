@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "landing page",
   "main": "index.js",
-
   "scripts": {
     "start": "node server.js"
   },
- 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caraballomp/aajc.git"
@@ -17,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/caraballomp/aajc/issues"
   },
-  "homepage": "https://github.com/caraballomp/aajc#readme"
+  "homepage": "https://github.com/caraballomp/aajc#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
 }
