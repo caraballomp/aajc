@@ -19,18 +19,17 @@ header
 .toggle
 {
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background-repeat: no-repeat;
-  background-size: 20px;
   background-position: center;
   cursor: pointer;
+  transition: 0.2s;
 }
 .toggle.active
 {
-  background: url(https://i.ibb.co/rt3HybH/close.png);
-  background-repeat: no-repeat;
-  background-size: 25px;
+background-repeat: no-repeat;
+  background-size: 5px;
   background-position: center;
   cursor: pointer;
 }
@@ -77,10 +76,10 @@ header
   font-weight: 300;
   color: #111;
   letter-spacing: 1px;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 .text a:hover
 {
-  letter-spacing: 6px;
+  letter-spacing: 3px;
 }
