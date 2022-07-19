@@ -1,2 +1,0 @@
-# aajc
-landing page 
